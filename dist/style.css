@@ -1,0 +1,138 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+#container {
+  margin: 7vh 5vw;
+  border-radius: 10px;
+}
+
+.box {
+  color: white;
+  padding: 3.5rem;
+  font-size: 0.9375em;
+}
+
+.box:first-child {
+  border-radius: 6px 6px 0 0;
+}
+
+.box:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.box-1 {
+  background-color: #e38826;
+}
+
+.box-1 a {
+  color: #e38826;
+}
+
+.box-2 {
+  background-color: #006970;
+}
+
+.box-2 a {
+  color: #006970;
+}
+
+.box-3 {
+  background-color: #004241;
+}
+
+.box-3 a {
+  color: #004241;
+}
+
+.box h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.box p {
+  color: #dfdfdf;
+  margin-bottom: 40px;
+}
+
+.link {
+  background-color: white;
+  padding: 20px 30px 20px 30px;
+  border-radius: 50px;
+}
+
+.link:active {
+  color: white;
+  background-color: transparent;
+  outline: 2px solid white;
+}
+
+@media (min-width: 1024px) {
+  #container {
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 340px;
+    max-height: 700px;
+  }
+  .box:first-child {
+    border-radius: 6px 0px 0px 6px;
+    margin-left: 5%;
+  }
+  .box:last-child {
+    border-radius: 0px 6px 6px 0px;
+    margin-right: 5%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
